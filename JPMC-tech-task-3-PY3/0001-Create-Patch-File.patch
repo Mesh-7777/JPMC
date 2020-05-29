@@ -1,0 +1,970 @@
+From 08266139417aebf858e08903cbff2f57b043c84f Mon Sep 17 00:00:00 2001
+From: Mahesh Sharma <smaheshsharma07@gmail.com>
+Date: Thu, 28 May 2020 00:01:47 +0530
+Subject: [PATCH] Create Patch File
+
+---
+ .vs/JPMC-tech-task-3-PY3/v16/.suo | Bin 22016 -> 27136 bytes
+ .vs/PythonSettings.json           |   3 +
+ .vs/VSWorkspaceState.json         |   8 +
+ .vs/slnx.sqlite                   | Bin 90112 -> 90112 bytes
+ 0001-Create-Patch-File.patch      | 757 ++++++++++++++++++++++++++++++
+ src/DataManipulator.ts            |   2 +-
+ src/Graph.tsx                     |   1 +
+ 7 files changed, 770 insertions(+), 1 deletion(-)
+ create mode 100644 .vs/PythonSettings.json
+ create mode 100644 .vs/VSWorkspaceState.json
+ create mode 100644 0001-Create-Patch-File.patch
+
+diff --git a/.vs/JPMC-tech-task-3-PY3/v16/.suo b/.vs/JPMC-tech-task-3-PY3/v16/.suo
+index 889d6464f88e616e6c0a08205e60aaec71549fc3..7c7843ecb86be0489e3db766c3cc0bfc0c3d57a3 100644
+GIT binary patch
+literal 27136
+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
+
+delta 1224
+zcmd5*O-~b16rDT$U>x31sx2kbP$@NGK}-uV>7vF`tAZF>q5%s^3a;vk=rn3Kj&Y$2
+zKj_><HZEAnMi<z)(gg`!sfoc5;!p4gv<nx4_l})1F>Xv;_>z<N?z!*2^WL2^#ts;-
+zU?l~ijZ;1uG#rp4UCXB@Dqlu+p<j}u%@9_+6<ENg`~Y_Gu4_{4(~v2}Gj981+B^l%
+z2|Ric+@WeQYpQN6ssU|}Hbsa(Mi{{R${_4*OwWTUUj&aOw)Sq+66>T5EGAoG-d|!l
+z#VM3@3b8s5H`V>1*+a9J&_PfLhX^drz+rWmb=ScZ<BCcdBCWf_9F|2+xLO5mx`0hF
+zg<Fw?cZO0gB&=u`1Rs0EQ7k4XP`H+cnapBcj-%d_7u^*52<_v}VYBBRoUN5ZQ=oyL
+zQimOBYy@(+B_~i1<^|tB=tz1}6e#$;FQ;e@x~7L8gPEy|0FnG|TdUT{2r&EaKp3l~
+zNv!)*xK^U89n5c31;S^jBulVcbe`7Ztr%mS@#CDBCE|)>6LVK7zGidP>4&{x3ZMnd
+zEp30h@%roPlURnVF;q)Oecjqk$BsB|CWf>V(rxLMv~1N`Oh=2sxsh31EtSmCml&0g
+zs@z>}IY{`Su#WEwZ(Sf|t@YT<K0fP9VEW_|ekv|tdeJ~*(2e!Q6?_yOM&r8iZ(nK(
+zy=52ML3YpK4|b{i?he6@bbeXXlLnA8lH?35hb~!8vX8_@=(7f0RKl)1U;}x<PG^U;
+pNj>-!<#5LOG1*&oqNb-VgW@zIrW0-;GmU)|+||GH&HwzRe*(7gvIPJD
+
+diff --git a/.vs/PythonSettings.json b/.vs/PythonSettings.json
+new file mode 100644
+index 0000000..0452e17
+--- /dev/null
++++ b/.vs/PythonSettings.json
+@@ -0,0 +1,3 @@
++{
++  "TestFramework": "unittest"
++}
+\ No newline at end of file
+diff --git a/.vs/VSWorkspaceState.json b/.vs/VSWorkspaceState.json
+new file mode 100644
+index 0000000..229e244
+--- /dev/null
++++ b/.vs/VSWorkspaceState.json
+@@ -0,0 +1,8 @@
++{
++  "ExpandedNodes": [
++    "",
++    "\\datafeed"
++  ],
++  "SelectedNode": "\\datafeed\\server3.py",
++  "PreviewInSolutionExplorer": false
++}
+\ No newline at end of file
+diff --git a/.vs/slnx.sqlite b/.vs/slnx.sqlite
+index 5974ee979ec9f40ce4bdee6630408aee066b94d7..387ef2deed1b3de0e930b4c29fa78b9bd0ebc50c 100644
+GIT binary patch
+delta 3313
+zcmcImZ)_7~7=Pcp_NDE5eb;q#?Y3@hSz@BJl+C$h#xUrHlTjE9)UgdXx?9(-|F~Wk
+zh(Za8aeyY0i#C!-BGEu%!o(&ld>|0x7e%846U8WBM6(zTafy(S1$^JT_6D-8L*thx
+zclZ3B=Xrn6zxNJZ)*rg8f2$7OJYFA!H_z?<09PW^4e&I+gio8lFrP-<1#9KgDEG!7
+z(u3f;`d%>=6T(t3l^lsivLY`<Q^`I-9FK;DS2&Z~?JWY<Wux)ohfo=ByL*5_+-?O)
+zAG~SR9Z`9uOjvR1k7ZIx?@AR}g5<)|HeQSf5<w=j@%WrN$tMJA-YM+KM!c%kfuefe
+zI2kcKIJh>Q_Dh+4{|xg$6t9Mh5nS&754b3;txDd?^XlX!zE2Vbk`$2;T#R4-#zt71
+zQ>yUqa=7$Z3scK2y=2kku&{4QMN^TqY-OvKTeu&U`Y$Eu!tBbEdxmtb5{Q&6Ecy6!
+z+9xE({ln#I*Yg5&{g>K3R=5QS<{oR}o)`J_=#t8(BFmRASAHCp5_AD}<;gu4rrSs@
+zADx8|pNyunab8N58$DWa`RaXJu6%=*>CeZC`v}wAqnnd1&>>}PynPZcO4)RAp|6j|
+z1!aX7wZW_?3Q6f<P;onRrUM?m4g{^rQdSptW_v~u`vggfCL@_1VgJC;YdZ>G*3U4o
+zS-#X*i`#t7f#!g_xuv}&(B9fwm~NcFFd^?<<$z7{(N&|~h6>2m!J-Fb0stU93h)nj
+z0)K|j;8A?5U=3`;9gS=dE^<pDs$b+>dil(n{tB)dxXdR3{*_xPn>zx?JZ=8ee3D#+
+zgXWyK0f821M7{f^QF{5Ql$2|WF?`R&4*xZ4ZE_*dMldh-y_6EiGHE_6kW5K}hKfu(
+z&x=piBhUqmC=dv&_65mIN`kMKm%^hynr(lYJ`#@#7GDF7Ai<`+e0YqH2)=kKJVxDF
+z83b&=fc)bbCHnP=yYiY)V^B5oI1yM)4)W;08%mxX4g?wrMB8<mMt(n3-LCp^*j11=
+zQ5wjx{6S4PlhHKttxzpe&1JmFwN-tzS0PYG!WFMz4P9$RU`6S>kdX*CO=qv1vw0}O
+z!A*{w>egvNz@xDkl@f7OB3R3*o=14{o03ZUiO_U4W&~WsOrjCPnQ^vc<g8Hrk**yV
+z#1?;gzox1)A@Bq#Me&a%8d0iRGPE0sN2)D)EPb~c)H;#jFMX<6Mp8$hTf5eFhPwQT
+z;gX^nA>br6O=tJSqZ(X3xY=IH=ZVdA{l$E;G@bzslNB@~2$~NvAhx-_P<qG#2`3WI
+zABjrQNHQe~rGO^<8*o`{0MA%PEI!%XTkpW<ElK>5Ws~J~{2q?rx5=FCz~dHM!Q;Nl
+z4LI30IB#>i+-w(ItfA{`*cLd?>@+N6ZICoEQ%LT76}FS(8|WLydW>`DHQ_tJh5G@X
+z#W6gC{~$lAKjRztI{p@ajRl;-yKsNOy}K3L^(=%;gCboz7QlKc7&(=is3ETP49fze
+z$+7~txGMnvX?fNHWpkRaK4<B~A97bLyYM@B0KbWIcq5K;zYx|(xIw3`1<rSNrlC&P
+z2Io%*<MQabz~U*v)4(Bb*;&mQbT*(Qp;p%l<-I$X7lsZVgF13zW8wGQ$9}}bjvRG-
+zC!adI-ANudOIxg@?;(W9rX$M-+&<hHbIX;JtM#`Jo9~^H*H6ZX$+4c#P4f9k5Bd1=
+zh3kbMCtEw%i+C5|biyK^z4r;(u>AcY=q+5j?+QR~{-;&2#@$47SH;j|*-UtrY}*?E
+z-_cS&Gvx`ui}-ji=cJkSQh}(@Q=y}xDSu}Te9Fvy#f@=|6&p-<O;copRvD%`y5T+s
+zCh`|Hz;!U5pWOg^;n-BD2VR3PlJ|sQ4;;xSLU0chroIWmX=`_a9>yM5<QSFJCPf+*
+ZX`s>;QRIjs1uCm_ieweZ=vZhp{S6~on+gB`
+
+delta 1338
+zcmaJ=Z)jUp6u&3$<?ba--f5aPP5N4sM-`FLG;P<)>W6lA)6p$mHxa3_Kl$^Trhk$w
+z$zla*OTV-z1ItAt13^VGFj&_G7bcAELq8QnVInG85K%gDOoyc)#d+ULliDx)^5byN
+zIltdIzkBc89rN5B^E(QxEj16o+RBAb&?ef}32x#ler8)Qs=hC5#r5XDP0+zsy-nED
+z)*0vw_yQfh-Cez1UBylBB0`j1Y<Gjo-fACvLa6~kftR#wHlB!yRziq~1%f}|8W!+D
+zN%g_|$O?TUH9Vu(>k0mbcbTm}V6xY9v2Se$pHV0oAQqYmMJ7Tqt!*+HnedNik_rFe
+zp2HoTJ<lFGBz;HjkIc8su)d&ofZUruJy%dYlyrcFrnOKc+ZIZt+O$N@AN6N560g2D
+zyRbd#c2nZzCGkX5o92n>YKDCjtnb||a+Ql-Ooviq`-<ER|Ib7+d&KNPu!)x284k6a
+zDTl5)N)#@4B$e97)8wF}wQ{ayvV6DdAg<cIo_z{4L+;r!tw*Lrt!^=votmVT1)J<;
+z=Fw0t9^rm*sOB1Nl(g`+tgaZz<b+C-r>4x8(b73B-Q`ccQB5gUN}lF7k<D<n(Re&&
+zTtlVNW#No^c9*eo?vN;P5{YKgk;+ly0d5^HJ#*~H(cm%vRJ4+)r<8bjZR%2ZGF~lb
+zGpG117<b05oKjxd^;6LGBpMB6L!+8j<#3qFdj4ESr=34Na>EULC$8s@#k28PBAM1I
+zg8F+@<RO9&@pmQ<H@oB^yeTK}s=R<7U<}{IMSK-={3X`PKCdtUk9mbkF>&rq=s6%b
+zfoq%Wf@;|lG=y-R;0|tcvHSc({em0#J${2<;W#FXPhRN8r4Jj-qCh}l$>d^#9+?Dz
+zSjt1T68sA{nVjN7w&IF>6hD>E<9qlTUdCBGiIaTDU+qu%!~ycyDVxM@U>DCd6wl7Q
+z4WcAEN%4=_>wZf9TnK-Di+z0UWe*R#ex7ykmjwXSDVn%lTPxkJ*IDgyhk5IIfj-Ax
+zSRU6~E?u5xH<wlO)=J#6Q2cSZyI(kuxA`bnWOnV}8z8aJqqCqES0A+mK+XTu4vjv^
+zECAG*xb<eI6?X{54Z>Y1d-4!BN@@UZ<I=F*qg$ZrKy@&@5%oyQZ}-7LTg{;LA8X0}
+zrG3Kg<&t$$ssA`ko4}L5H3-jxJHIms!_Zg?o`Aam(YzXj6A;Ny1tARK($_)QbR75S
+k!?@fAHtJY!HPB+9F{(4F$Igg>VIAv40|f(3q5u}_e|7hUE&u=k
+
+diff --git a/0001-Create-Patch-File.patch b/0001-Create-Patch-File.patch
+new file mode 100644
+index 0000000..8beef71
+--- /dev/null
++++ b/0001-Create-Patch-File.patch
+@@ -0,0 +1,757 @@
++From ca28a98721792e8367df27c541d6191b5164ce11 Mon Sep 17 00:00:00 2001
++From: Mahesh Sharma <smaheshsharma07@gmail.com>
++Date: Tue, 26 May 2020 03:24:01 +0530
++Subject: [PATCH] Create Patch File
++
++---
++ .vs/JPMC-tech-task-3-PY3/v16/.suo | Bin 0 -> 22016 bytes
++ .vs/ProjectSettings.json          |   3 +
++ .vs/slnx.sqlite                   | Bin 0 -> 90112 bytes
++ package-lock.json                 | 197 +++++++++++++++++++++++++-----
++ src/DataManipulator.ts            |  34 ++++--
++ src/Graph.tsx                     |  27 ++--
++ 6 files changed, 211 insertions(+), 50 deletions(-)
++ create mode 100644 .vs/JPMC-tech-task-3-PY3/v16/.suo
++ create mode 100644 .vs/ProjectSettings.json
++ create mode 100644 .vs/slnx.sqlite
++
++diff --git a/.vs/JPMC-tech-task-3-PY3/v16/.suo b/.vs/JPMC-tech-task-3-PY3/v16/.suo
++new file mode 100644
++index 0000000000000000000000000000000000000000..889d6464f88e616e6c0a08205e60aaec71549fc3
++GIT binary patch
++literal 22016
++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
++MTB7xIz1n~M3!%E@<^TWy
++
++literal 0
++HcmV?d00001
++
++diff --git a/.vs/ProjectSettings.json b/.vs/ProjectSettings.json
++new file mode 100644
++index 0000000..f8b4888
++--- /dev/null
+++++ b/.vs/ProjectSettings.json
++@@ -0,0 +1,3 @@
+++{
+++  "CurrentProjectSetting": null
+++}
++\ No newline at end of file
++diff --git a/.vs/slnx.sqlite b/.vs/slnx.sqlite
++new file mode 100644
++index 0000000000000000000000000000000000000000..5974ee979ec9f40ce4bdee6630408aee066b94d7
++GIT binary patch
++literal 90112
++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
++
++literal 0
++HcmV?d00001
++
++diff --git a/package-lock.json b/package-lock.json
++index 3c8c001..efb3774 100644
++--- a/package-lock.json
+++++ b/package-lock.json
++@@ -1,5 +1,5 @@
++ {
++-  "name": "bank-merge-co-task-2",
+++  "name": "bank-merge-co-task-3",
++   "version": "0.1.0",
++   "lockfileVersion": 1,
++   "requires": true,
++@@ -1507,9 +1507,9 @@
++       "integrity": "sha512-2NVovndCjJQj6fUUn9jCgpP4WSqr+u1SoUZMZyJkhGeBFsm6dE46l31S7lPUYt9uQ28XI+ibrJA1f5XyH5HNtA=="
++     },
++     "@types/prop-types": {
++-      "version": "15.5.8",
++-      "resolved": "https://registry.npmjs.org/@types/prop-types/-/prop-types-15.5.8.tgz",
++-      "integrity": "sha512-3AQoUxQcQtLHsK25wtTWIoIpgYjH3vSDroZOUr7PpCHw/jLY1RB9z9E8dBT/OSmwStVgkRNvdh+ZHNiomRieaw=="
+++      "version": "15.7.3",
+++      "resolved": "https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.3.tgz",
+++      "integrity": "sha512-KfRL3PuHmqQLOG+2tGpRO26Ctg+Cq1E01D2DMriKEATHgWLfeNDmq9e29Q9WIky0dQ3NPkd1mzYH8Lm936Z9qw=="
++     },
++     "@types/q": {
++       "version": "1.5.1",
++@@ -1517,9 +1517,9 @@
++       "integrity": "sha512-eqz8c/0kwNi/OEHQfvIuJVLTst3in0e7uTKeuY+WL/zfKn0xVujOTp42bS/vUUokhK5P2BppLd9JXMOMHcgbjA=="
++     },
++     "@types/react": {
++-      "version": "16.7.22",
++-      "resolved": "https://registry.npmjs.org/@types/react/-/react-16.7.22.tgz",
++-      "integrity": "sha512-j/3tVoY09kHcTfbia4l67ofQn9xvktUvlC/4QN0KuBHAXlbU/wuGKMb8WfEb/vIcWxsOxHv559uYprkFDFfP8Q==",
+++      "version": "16.9.35",
+++      "resolved": "https://registry.npmjs.org/@types/react/-/react-16.9.35.tgz",
+++      "integrity": "sha512-q0n0SsWcGc8nDqH2GJfWQWUOmZSJhXV64CjVN5SvcNti3TdEaA3AH0D8DwNmMdzjMAC/78tB8nAZIlV8yTz+zQ==",
++       "requires": {
++         "@types/prop-types": "*",
++         "csstype": "^2.2.0"
++@@ -1801,6 +1801,14 @@
++       "resolved": "https://registry.npmjs.org/address/-/address-1.0.3.tgz",
++       "integrity": "sha512-z55ocwKBRLryBs394Sm3ushTtBeg6VAeuku7utSoSnsJKvKcnXFIyC6vh27n3rXyxSgkJBBCAvyOn7gSUcTYjg=="
++     },
+++    "agent-base": {
+++      "version": "4.3.0",
+++      "resolved": "https://registry.npmjs.org/agent-base/-/agent-base-4.3.0.tgz",
+++      "integrity": "sha512-salcGninV0nPrwpGNn4VTXBb1SOuXQBiqbrNXoeizJsHrsL6ERFM2Ne3JUSBWRE6aeNJI2ROP/WEEIDUiDe3cg==",
+++      "requires": {
+++        "es6-promisify": "^5.0.0"
+++      }
+++    },
++     "ajv": {
++       "version": "6.7.0",
++       "resolved": "https://registry.npmjs.org/ajv/-/ajv-6.7.0.tgz",
++@@ -3679,6 +3687,11 @@
++       "resolved": "https://registry.npmjs.org/buffer-alloc-unsafe/-/buffer-alloc-unsafe-1.1.0.tgz",
++       "integrity": "sha512-TEM2iMIEQdJ2yjPJoSIsldnleVaAk1oW3DBVUykyOLsEsFmEc9kn+SFFPz+gl54KQNxlDnAwCXosOS9Okx2xAg=="
++     },
+++    "buffer-crc32": {
+++      "version": "0.2.13",
+++      "resolved": "https://registry.npmjs.org/buffer-crc32/-/buffer-crc32-0.2.13.tgz",
+++      "integrity": "sha1-DTM+PwDqxQqhRUq9MO+MKl2ackI="
+++    },
++     "buffer-fill": {
++       "version": "1.0.0",
++       "resolved": "https://registry.npmjs.org/buffer-fill/-/buffer-fill-1.0.0.tgz",
++@@ -4937,9 +4950,9 @@
++       }
++     },
++     "csstype": {
++-      "version": "2.6.2",
++-      "resolved": "https://registry.npmjs.org/csstype/-/csstype-2.6.2.tgz",
++-      "integrity": "sha512-Rl7PvTae0pflc1YtxtKbiSqq20Ts6vpIYOD5WBafl4y123DyHUeLrRdQP66sQW8/6gmX8jrYJLXwNeMqYVJcow=="
+++      "version": "2.6.10",
+++      "resolved": "https://registry.npmjs.org/csstype/-/csstype-2.6.10.tgz",
+++      "integrity": "sha512-D34BqZU4cIlMCY93rZHbrq9pjTAQJ3U8S8rfBqjwHxkGPThWFjzZDQpgMJY0QViLxth6ZKYiwFBo14RdN44U/w=="
++     },
++     "cyclist": {
++       "version": "0.2.2",
++@@ -5527,6 +5540,19 @@
++         "es6-symbol": "^3.1.1"
++       }
++     },
+++    "es6-promise": {
+++      "version": "4.2.8",
+++      "resolved": "https://registry.npmjs.org/es6-promise/-/es6-promise-4.2.8.tgz",
+++      "integrity": "sha512-HJDGx5daxeIvxdBxvG2cb9g4tEvwIk3i8+nhX0yGrYmZUzbkdg8QbDevheDB8gd0//uPj4c1EQua8Q+MViT0/w=="
+++    },
+++    "es6-promisify": {
+++      "version": "5.0.0",
+++      "resolved": "https://registry.npmjs.org/es6-promisify/-/es6-promisify-5.0.0.tgz",
+++      "integrity": "sha1-UQnWLz5W6pZ8S2NQWu8IKRyKUgM=",
+++      "requires": {
+++        "es6-promise": "^4.0.3"
+++      }
+++    },
++     "es6-symbol": {
++       "version": "3.1.1",
++       "resolved": "https://registry.npmjs.org/es6-symbol/-/es6-symbol-3.1.1.tgz",
++@@ -6179,6 +6205,45 @@
++         }
++       }
++     },
+++    "extract-zip": {
+++      "version": "1.7.0",
+++      "resolved": "https://registry.npmjs.org/extract-zip/-/extract-zip-1.7.0.tgz",
+++      "integrity": "sha512-xoh5G1W/PB0/27lXgMQyIhP5DSY/LhoCsOyZgb+6iMmRtCwVBo55uKaMoEYrDCKQhWvqEip5ZPKAc6eFNyf/MA==",
+++      "requires": {
+++        "concat-stream": "^1.6.2",
+++        "debug": "^2.6.9",
+++        "mkdirp": "^0.5.4",
+++        "yauzl": "^2.10.0"
+++      },
+++      "dependencies": {
+++        "debug": {
+++          "version": "2.6.9",
+++          "resolved": "https://registry.npmjs.org/debug/-/debug-2.6.9.tgz",
+++          "integrity": "sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==",
+++          "requires": {
+++            "ms": "2.0.0"
+++          }
+++        },
+++        "minimist": {
+++          "version": "1.2.5",
+++          "resolved": "https://registry.npmjs.org/minimist/-/minimist-1.2.5.tgz",
+++          "integrity": "sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw=="
+++        },
+++        "mkdirp": {
+++          "version": "0.5.5",
+++          "resolved": "https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.5.tgz",
+++          "integrity": "sha512-NKmAlESf6jMGym1++R0Ra7wvhV+wFW63FaSOFPwRahvea0gMUcGUhVeAg/0BC0wiv9ih5NYPB1Wn1UEI1/L+xQ==",
+++          "requires": {
+++            "minimist": "^1.2.5"
+++          }
+++        },
+++        "ms": {
+++          "version": "2.0.0",
+++          "resolved": "https://registry.npmjs.org/ms/-/ms-2.0.0.tgz",
+++          "integrity": "sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g="
+++        }
+++      }
+++    },
++     "extsprintf": {
++       "version": "1.3.0",
++       "resolved": "https://registry.npmjs.org/extsprintf/-/extsprintf-1.3.0.tgz",
++@@ -6523,6 +6588,14 @@
++         "bser": "^2.0.0"
++       }
++     },
+++    "fd-slicer": {
+++      "version": "1.1.0",
+++      "resolved": "https://registry.npmjs.org/fd-slicer/-/fd-slicer-1.1.0.tgz",
+++      "integrity": "sha1-JcfInLH5B3+IkbvmHY85Dq4lbx4=",
+++      "requires": {
+++        "pend": "~1.2.0"
+++      }
+++    },
++     "figgy-pudding": {
++       "version": "3.5.1",
++       "resolved": "https://registry.npmjs.org/figgy-pudding/-/figgy-pudding-3.5.1.tgz",
++@@ -7089,11 +7162,13 @@
++         },
++         "balanced-match": {
++           "version": "1.0.0",
++-          "bundled": true
+++          "bundled": true,
+++          "optional": true
++         },
++         "brace-expansion": {
++           "version": "1.1.11",
++           "bundled": true,
+++          "optional": true,
++           "requires": {
++             "balanced-match": "^1.0.0",
++             "concat-map": "0.0.1"
++@@ -7106,15 +7181,18 @@
++         },
++         "code-point-at": {
++           "version": "1.1.0",
++-          "bundled": true
+++          "bundled": true,
+++          "optional": true
++         },
++         "concat-map": {
++           "version": "0.0.1",
++-          "bundled": true
+++          "bundled": true,
+++          "optional": true
++         },
++         "console-control-strings": {
++           "version": "1.1.0",
++-          "bundled": true
+++          "bundled": true,
+++          "optional": true
++         },
++         "core-util-is": {
++           "version": "1.0.2",
++@@ -7217,7 +7295,8 @@
++         },
++         "inherits": {
++           "version": "2.0.3",
++-          "bundled": true
+++          "bundled": true,
+++          "optional": true
++         },
++         "ini": {
++           "version": "1.3.5",
++@@ -7227,6 +7306,7 @@
++         "is-fullwidth-code-point": {
++           "version": "1.0.0",
++           "bundled": true,
+++          "optional": true,
++           "requires": {
++             "number-is-nan": "^1.0.0"
++           }
++@@ -7239,17 +7319,20 @@
++         "minimatch": {
++           "version": "3.0.4",
++           "bundled": true,
+++          "optional": true,
++           "requires": {
++             "brace-expansion": "^1.1.7"
++           }
++         },
++         "minimist": {
++           "version": "0.0.8",
++-          "bundled": true
+++          "bundled": true,
+++          "optional": true
++         },
++         "minipass": {
++           "version": "2.2.4",
++           "bundled": true,
+++          "optional": true,
++           "requires": {
++             "safe-buffer": "^5.1.1",
++             "yallist": "^3.0.0"
++@@ -7266,6 +7349,7 @@
++         "mkdirp": {
++           "version": "0.5.1",
++           "bundled": true,
+++          "optional": true,
++           "requires": {
++             "minimist": "0.0.8"
++           }
++@@ -7338,7 +7422,8 @@
++         },
++         "number-is-nan": {
++           "version": "1.0.1",
++-          "bundled": true
+++          "bundled": true,
+++          "optional": true
++         },
++         "object-assign": {
++           "version": "4.1.1",
++@@ -7348,6 +7433,7 @@
++         "once": {
++           "version": "1.4.0",
++           "bundled": true,
+++          "optional": true,
++           "requires": {
++             "wrappy": "1"
++           }
++@@ -7453,6 +7539,7 @@
++         "string-width": {
++           "version": "1.0.2",
++           "bundled": true,
+++          "optional": true,
++           "requires": {
++             "code-point-at": "^1.0.0",
++             "is-fullwidth-code-point": "^1.0.0",
++@@ -8465,6 +8552,25 @@
++       "resolved": "https://registry.npmjs.org/https-browserify/-/https-browserify-1.0.0.tgz",
++       "integrity": "sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM="
++     },
+++    "https-proxy-agent": {
+++      "version": "2.2.4",
+++      "resolved": "https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-2.2.4.tgz",
+++      "integrity": "sha512-OmvfoQ53WLjtA9HeYP9RNrWMJzzAz1JGaSFr1nijg0PVR1JaD/xbJq1mdEIIlxGpXp9eSe/O2LgU9DJmTPd0Eg==",
+++      "requires": {
+++        "agent-base": "^4.3.0",
+++        "debug": "^3.1.0"
+++      },
+++      "dependencies": {
+++        "debug": {
+++          "version": "3.2.6",
+++          "resolved": "https://registry.npmjs.org/debug/-/debug-3.2.6.tgz",
+++          "integrity": "sha512-mel+jf7nrtEl5Pn1Qx46zARXKDpBbvzezse7p7LqINmdoIk8PYP5SySaxEmYv6TZ0JyEKA1hsCId6DIhgITtWQ==",
+++          "requires": {
+++            "ms": "^2.1.1"
+++          }
+++        }
+++      }
+++    },
++     "iconv-lite": {
++       "version": "0.4.24",
++       "resolved": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.24.tgz",
++@@ -11425,6 +11531,11 @@
++         "sha.js": "^2.4.8"
++       }
++     },
+++    "pend": {
+++      "version": "1.2.0",
+++      "resolved": "https://registry.npmjs.org/pend/-/pend-1.2.0.tgz",
+++      "integrity": "sha1-elfrVQpng/kRUzH89GY9XI4AelA="
+++    },
++     "performance-now": {
++       "version": "2.1.0",
++       "resolved": "https://registry.npmjs.org/performance-now/-/performance-now-2.1.0.tgz",
++@@ -15518,6 +15629,11 @@
++         "ipaddr.js": "1.8.0"
++       }
++     },
+++    "proxy-from-env": {
+++      "version": "1.1.0",
+++      "resolved": "https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz",
+++      "integrity": "sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg=="
+++    },
++     "prr": {
++       "version": "1.0.1",
++       "resolved": "https://registry.npmjs.org/prr/-/prr-1.0.1.tgz",
++@@ -15581,6 +15697,21 @@
++       "resolved": "https://registry.npmjs.org/punycode/-/punycode-2.1.1.tgz",
++       "integrity": "sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A=="
++     },
+++    "puppeteer": {
+++      "version": "1.20.0",
+++      "resolved": "https://registry.npmjs.org/puppeteer/-/puppeteer-1.20.0.tgz",
+++      "integrity": "sha512-bt48RDBy2eIwZPrkgbcwHtb51mj2nKvHOPMaSH2IsWiv7lOG9k9zhaRzpDZafrk05ajMc3cu+lSQYYOfH2DkVQ==",
+++      "requires": {
+++        "debug": "^4.1.0",
+++        "extract-zip": "^1.6.6",
+++        "https-proxy-agent": "^2.2.1",
+++        "mime": "^2.0.3",
+++        "progress": "^2.0.1",
+++        "proxy-from-env": "^1.0.0",
+++        "rimraf": "^2.6.1",
+++        "ws": "^6.1.0"
+++      }
+++    },
++     "q": {
++       "version": "1.5.1",
++       "resolved": "https://registry.npmjs.org/q/-/q-1.5.1.tgz",
++@@ -15700,14 +15831,13 @@
++       }
++     },
++     "react": {
++-      "version": "16.7.0",
++-      "resolved": "https://registry.npmjs.org/react/-/react-16.7.0.tgz",
++-      "integrity": "sha512-StCz3QY8lxTb5cl2HJxjwLFOXPIFQp+p+hxQfc8WE0QiLfCtIlKj8/+5tjjKm8uSTlAW+fCPaavGFS06V9Ar3A==",
+++      "version": "16.13.1",
+++      "resolved": "https://registry.npmjs.org/react/-/react-16.13.1.tgz",
+++      "integrity": "sha512-YMZQQq32xHLX0bz5Mnibv1/LHb3Sqzngu7xstSM+vrkE5Kzr9xE0yMByK5kMoTK30YVJE61WfbxIFFvfeDKT1w==",
++       "requires": {
++         "loose-envify": "^1.1.0",
++         "object-assign": "^4.1.1",
++-        "prop-types": "^15.6.2",
++-        "scheduler": "^0.12.0"
+++        "prop-types": "^15.6.2"
++       }
++     },
++     "react-app-polyfill": {
++@@ -15813,14 +15943,14 @@
++       }
++     },
++     "react-dom": {
++-      "version": "16.7.0",
++-      "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-16.7.0.tgz",
++-      "integrity": "sha512-D0Ufv1ExCAmF38P2Uh1lwpminZFRXEINJe53zRAbm4KPwSyd6DY/uDoS0Blj9jvPpn1+wivKpZYc8aAAN/nAkg==",
+++      "version": "16.13.1",
+++      "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-16.13.1.tgz",
+++      "integrity": "sha512-81PIMmVLnCNLO/fFOQxdQkvEq/+Hfpv24XNJfpyZhTRfO0QcmQIF/PgCa1zCOj2w1hrn12MFLyaJ/G0+Mxtfag==",
++       "requires": {
++         "loose-envify": "^1.1.0",
++         "object-assign": "^4.1.1",
++         "prop-types": "^15.6.2",
++-        "scheduler": "^0.12.0"
+++        "scheduler": "^0.19.1"
++       }
++     },
++     "react-error-overlay": {
++@@ -17025,9 +17155,9 @@
++       }
++     },
++     "scheduler": {
++-      "version": "0.12.0",
++-      "resolved": "https://registry.npmjs.org/scheduler/-/scheduler-0.12.0.tgz",
++-      "integrity": "sha512-t7MBR28Akcp4Jm+QoR63XgAi9YgCUmgvDHqf5otgAj4QvdoBE4ImCX0ffehefePPG+aitiYHp0g/mW6s4Tp+dw==",
+++      "version": "0.19.1",
+++      "resolved": "https://registry.npmjs.org/scheduler/-/scheduler-0.19.1.tgz",
+++      "integrity": "sha512-n/zwRWRYSUj0/3g/otKDRPMh6qv2SYMWNq85IEa8iZyAv8od9zDYpGSnpBEjNgcMNq6Scbu5KfIPxNF72R/2EA==",
++       "requires": {
++         "loose-envify": "^1.1.0",
++         "object-assign": "^4.1.1"
++@@ -19606,6 +19736,15 @@
++         "camelcase": "^5.0.0",
++         "decamelize": "^1.2.0"
++       }
+++    },
+++    "yauzl": {
+++      "version": "2.10.0",
+++      "resolved": "https://registry.npmjs.org/yauzl/-/yauzl-2.10.0.tgz",
+++      "integrity": "sha1-x+sXyT4RLLEIb6bY5R+wZnt5pfk=",
+++      "requires": {
+++        "buffer-crc32": "~0.2.3",
+++        "fd-slicer": "~1.1.0"
+++      }
++     }
++   }
++ }
++diff --git a/src/DataManipulator.ts b/src/DataManipulator.ts
++index f6b15ff..8bce362 100644
++--- a/src/DataManipulator.ts
+++++ b/src/DataManipulator.ts
++@@ -1,20 +1,34 @@
++ import { ServerRespond } from './DataStreamer';
++ 
++ export interface Row {
++-  stock: string,
++-  top_ask_price: number,
+++  price_abc: number,
+++  price_def: number,
+++  ratio: number,
++   timestamp: Date,
+++  upper_bound: number,
+++  lower_bound: number,
+++  trigger_alert: number | undefined,
+++  // Changed to match it with new Schema.
++ }
++ 
++ 
++ export class DataManipulator {
++-  static generateRow(serverResponds: ServerRespond[]): Row[] {
++-    return serverResponds.map((el: any) => {
++-      return {
++-        stock: el.stock,
++-        top_ask_price: el.top_ask && el.top_ask.price || 0,
++-        timestamp: el.timestamp,
++-      };
++-    })
+++  static generateRow(serverResponds: ServerRespond[]): Row {
+++    const priceABC = (serverResponds[0].top_ask.price + serverResponds[0].top_bid.price)/2;
+++    const priceDEF = (serverResponds[1].top_ask.price + serverResponds[1].top_bid.price)/2;
+++    const ratio = priceABC/priceDEF;
+++    const upperBound = 1 + 0.10;
+++    const lowerBound = 1 - 0.01;
+++    return {
+++      price_abc: priceABC,
+++      price_def: priceDEF,
+++      ratio,
+++      timestamp: serverResponds[0].timestamp > serverResponds[1].timestamp ?
+++        serverResponds[0].timestamp : serverResponds[1].timestamp,
+++      upper_bound: upperBound,
+++      lower_bound: lowerBound,
+++      trigger_alert: (ratio > upperBound || ratio < lowerBound) ? ratio : undefined,
+++    // Changes a in generateRow are done here.
+++    };
++   }
++ }
++diff --git a/src/Graph.tsx b/src/Graph.tsx
++index 58fb997..ee06581 100644
++--- a/src/Graph.tsx
+++++ b/src/Graph.tsx
++@@ -21,12 +21,14 @@ class Graph extends Component<IProps, {}> {
++   componentDidMount() {
++     // Get element from the DOM.
++     const elem = document.getElementsByTagName('perspective-viewer')[0] as unknown as PerspectiveViewerElement;
++-
+++    // Changes made in schema.
++     const schema = {
++-      stock: 'string',
++-      top_ask_price: 'float',
++-      top_bid_price: 'float',
+++      price_abc: 'float',
+++      price_def: 'float',
+++      ratio: 'float',
++       timestamp: 'date',
+++      upper_bound: 'float',
+++      lower_bound: 'float',
++     };
++ 
++     if (window.perspective && window.perspective.worker()) {
++@@ -36,23 +38,26 @@ class Graph extends Component<IProps, {}> {
++       // Load the `table` in the `<perspective-viewer>` DOM reference.
++       elem.load(this.table);
++       elem.setAttribute('view', 'y_line');
++-      elem.setAttribute('column-pivots', '["stock"]');
++       elem.setAttribute('row-pivots', '["timestamp"]');
++-      elem.setAttribute('columns', '["top_ask_price"]');
+++      elem.setAttribute('columns', '["ratio", "lower_bound", "upper_bound", "trigger_alert"]');
++       elem.setAttribute('aggregates', JSON.stringify({
++-        stock: 'distinctcount',
++-        top_ask_price: 'avg',
++-        top_bid_price: 'avg',
+++        price_abc: 'avg',
+++        price_def: 'avg',
+++        ratio: 'avg',
++         timestamp: 'distinct count',
+++        upper_bound: 'avg',
+++        lower_bound: 'avg',
+++        trigger_alert: 'avg',
+++        // Added more attributes.
++       }));
++     }
++   }
++ 
++   componentDidUpdate() {
++     if (this.table) {
++-      this.table.update(
+++      this.table.update([
++         DataManipulator.generateRow(this.props.data),
++-      );
+++      ]);
++     }
++   }
++ }
++-- 
++2.23.0.windows.1
++
+diff --git a/src/DataManipulator.ts b/src/DataManipulator.ts
+index 8bce362..b427540 100644
+--- a/src/DataManipulator.ts
++++ b/src/DataManipulator.ts
+@@ -18,7 +18,7 @@ export class DataManipulator {
+     const priceDEF = (serverResponds[1].top_ask.price + serverResponds[1].top_bid.price)/2;
+     const ratio = priceABC/priceDEF;
+     const upperBound = 1 + 0.10;
+-    const lowerBound = 1 - 0.01;
++    const lowerBound = 1 - 0.00;
+     return {
+       price_abc: priceABC,
+       price_def: priceDEF,
+diff --git a/src/Graph.tsx b/src/Graph.tsx
+index ee06581..c622e16 100644
+--- a/src/Graph.tsx
++++ b/src/Graph.tsx
+@@ -29,6 +29,7 @@ class Graph extends Component<IProps, {}> {
+       timestamp: 'date',
+       upper_bound: 'float',
+       lower_bound: 'float',
++      trigger_alert: 'float',
+     };
+ 
+     if (window.perspective && window.perspective.worker()) {
+-- 
+2.23.0.windows.1
+
